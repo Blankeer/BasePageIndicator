@@ -2,7 +2,7 @@
 
 参考[JakeWharton/ViewPagerIndicator](https://github.com/JakeWharton/ViewPagerIndicator)和[astuetz/PagerSlidingTabStrip](https://github.com/astuetz/PagerSlidingTabStrip)的源码，感谢。
 初衷是想自定义个指示器，看了上述的源码，干脆自己写出来了一个通用的BasePageIndicator，自定义指示器只需重写以下方法：`getTabItemView()` `drawItemUnder()` `drawTabUnder()` `drawDivider()`，第一个方法是得到item的view，后面几个是绘制Item下划线，Tab下划线，Item间的分隔线。
-![gif](https://github.com/Blankeer/BasePageIndicator/blob/master/Screen.gif)
+![gif](https://github.com/Blankeer/BasePageIndicator/blob/master/screenshot.gif)
 ---
 贴上几个常用的。
 `TitleIndicator`代码：
