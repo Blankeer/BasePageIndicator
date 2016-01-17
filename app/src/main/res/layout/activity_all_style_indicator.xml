@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <com.blanke.basepageindicator.TitleIndicator
+        android:id="@+id/activity_all_indicator_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.blanke.basepageindicator.MIUITitleIndicator
+        android:id="@+id/activity_all_indicator_miui"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp" />
+
+    <com.blanke.basepageindicator.IconTitleIndicator
+        android:id="@+id/activity_all_indicator_icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#CE3D3A" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/activity_all_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></android.support.v4.view.ViewPager>
+</LinearLayout>
